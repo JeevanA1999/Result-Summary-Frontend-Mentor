@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        font-family: "Hanken Grotesk", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <h3 class="header">Your Result</h3>
+        <div class="progress-circle">
+          75
+          <span>of 100</span>
+        </div>
+        <h2 class="second-hrader">Great</h2>
+        <p class="text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="second">
+        <h3>Summary</h3>
+        <div class="selectors">
+          <div class="div1">
+            <img src="./assets/images/icon-reaction.svg" />
+            <span class="sub-header1">Reaction</span>
+            <span class="end1">
+              <span class="outoff"
+                ><strong>
+                  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  80</strong
+                >
+                / 100</span
+              >
+            </span>
+          </div>
+          <div class="div2">
+            <img src="./assets/images/icon-memory.svg" />
+            <span class="sub-header2">Memory</span>
+            <span class="end2">
+              <span class="outoff"
+                ><strong>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  80</strong
+                >
+                / 100</span
+              >
+            </span>
+          </div>
+
+          <div class="div3">
+            <img src="./assets/images/icon-verbal.svg" />
+            <span class="sub-header3">Verbal</span>
+            <span class="end3">
+              <span class="outoff"
+                ><strong>
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; 80</strong
+                >
+                / 100</span
+              >
+            </span>
+          </div>
+          <div class="div4">
+            <img src="./assets/images/icon-visual.svg" />
+            <span class="sub-header4">Visual</span>
+            <span class="end4">
+              <span class="outoff"
+                ><strong>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; 80</strong
+                >
+                / 100</span
+              >
+            </span>
+          </div>
+          <button class="continue">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
